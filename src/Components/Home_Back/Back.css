@@ -1,0 +1,44 @@
+.Back{
+  width: 100%;
+  min-height: 100vh;
+  background:linear-gradient(rgba(44, 110, 215, 0.7),rgba(44, 110, 215,0.7)), url("../../assets/chicken.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Back-text{
+  text-align: center;
+  max-width: 800px;
+}
+.Back-text h1{
+  font-size: 60px;
+  font-weight: 600;
+}
+.Back-text p{
+  font-size: 20px;
+  max-width: 700;
+  margin: 10px auto 20px;
+  line-height: 1.4;
+}
+
+/*-------------media query----------------*/
+
+@media(max-width: 850px){
+  .Back-text h1{
+    font-size: 40px;
+  }
+}
+@media(max-width: 650px){
+  .Back-text h1{
+    font-size: 30px;
+    max-width: 400px;
+    margin: auto;
+  }
+  .Back-text p{
+    font-size: 14px;
+    margin: 15px auto 30px;
+  }
+}

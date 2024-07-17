@@ -1,0 +1,12 @@
+.con-back{
+  width: 100%;
+  min-height: 75vh;
+  background:linear-gradient(rgba(44, 110, 215, 0.7),rgba(44, 110, 215,0.7)), url("../assets/values.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+}

@@ -1,0 +1,74 @@
+.vision{
+  display: flex;
+  align-items: center; /* Aligns items vertically center */
+  justify-content: center; /* Center aligns the content horizontally, remove if not needed */
+  gap: 20px; /* Space between image and text */
+  padding: 20px;
+  margin-left: 150px ;
+}
+.vision-text h3{
+  margin: 10px 0px 0 0px;
+  font-size: 25px;
+
+}
+.vision-text{
+  flex: 1;
+}
+
+
+  
+.vision-text p{
+ 
+  width: 90%;
+  flex-basis: 40%;
+  color: #676767;
+  line-height: 2;
+  font-size: 20px;
+  margin-bottom: 15px;
+  
+}
+
+.vision-pic{
+  flex: 0 0 auto;
+  
+}
+.vision-pic img{
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  border-radius: 10px;
+  margin-right: 150px ;
+}
+@media (max-width: 1150px){
+  .vision {
+    flex-direction: column; /* Stack items vertically on small screens */
+    text-align: center;
+    margin-left: 15px; /* Center text for better readability */
+  }
+  .vision-text h3{
+    margin: 0;
+  }
+
+
+}
+@media (max-width: 768px) {
+  .vision {
+    flex-direction: column; /* Stack items vertically on small screens */
+    /* text-align: center; */
+    margin-left: 25px; /* Center text for better readability */
+  }
+
+  .vision-pic,
+  .vision-text {
+    width: 100%; /* Make containers full-width */
+    margin: 20%;
+    text-align: left;
+    
+  }
+  .vision-pic{
+    margin: 10px;
+  }
+  .vision-text{
+    order: 2;
+  }
+}

@@ -1,0 +1,42 @@
+.values{
+  width: 100%;
+  min-height: 100vh;
+  background:linear-gradient(rgba(44, 110, 215, 0.7),rgba(44, 110, 215,0.7)), url("../../../assets/values.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.value-text{
+  text-align: center;
+  max-width: 800px;
+}
+.value-text h3{
+  font-size: 60px;
+  font-weight: 600;
+}
+.value-text p{
+  font-size: 20px;
+  max-width: 700;
+  margin: 10px auto 20px;
+  line-height: 1.4;
+}
+@media(max-width: 850px){
+  .value-text h1{
+    font-size: 40px;
+  }
+}
+@media(max-width: 650px){
+  .value-text h1{
+    font-size: 30px;
+    max-width: 400px;
+    margin: auto;
+  }
+  .value-text p{
+    font-size: 14px;
+    margin: 15px auto 30px;
+  }
+}
